@@ -1,0 +1,1 @@
+select firstname||lastname "Customers in Atlanta, GA",shipstate,shipcity from customers join orders using(customer#);
